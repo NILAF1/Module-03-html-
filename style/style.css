@@ -1,0 +1,17 @@
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav  li a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
+
+nav li :hover{
+    background-color: lightcoral;
+}
