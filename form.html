@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raik's cake corker</title>
+    <style>
+        label{
+          display: block;
+          margin-top: 10px;
+        }
+        fieldset{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Name:
+            <input id="name" placeholder="your name" type="text" name="" id="">
+        </label>
+        <label for="email">Email: 
+            <input type="email" placeholder="your email" name="" id="email">
+        </label>
+        <label for="phone">Phone:
+            <input type="text" placeholder="your phone number" name="" id="phone">
+        </label>
+
+        <fieldset>
+            <legend>Pick one cake</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy" value="chitoy">Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa" value="vapa">Vapa
+            </label>
+            <label for="patisapta">
+                <input type="radio" name="pitha" id="patisapta" value="Patisapta">Patisapta
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick your sos</legend>
+            <label for="shorisa">
+                <input type="checkbox" name="sos" id="shorisa">shorisa
+            </label>
+            <label for="meones">
+                <input type="checkbox" name="sos" id="meones">meones
+            </label>
+            <label for="kasundi">
+                <input type="checkbox" name="sos" id="kasundi">kasundi
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Special instruction</legend>
+            <textarea name="" id="" cols="10" rows="7"></textarea>
+        </fieldset>
+
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
