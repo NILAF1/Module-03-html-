@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        td,th{
+            border: 1px solid black;
+            padding: 4px 7px;
+        }
+        table{
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML table</h2>
+    <table>
+        <caption>Employee salary sheet</caption>
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sadakat Jaman</td>
+                <td>CEO</td>
+                <td>1000$</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Barkat Ullah</td>
+                <td>COO</td>
+                <td>700$</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Sumon Mollah</td>
+                <td>PM</td>
+                <td>400$</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Nirob Sheaikh</td>
+                <td>Intern</td>
+                <td>150$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total:2250$</td>
+          </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
